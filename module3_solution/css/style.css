@@ -1,9 +1,42 @@
-.container-fluid {
-    background-color: aqua;
-    height:100px;
+.page-content {
+    border: 2px black solid;
+    background-color: lightyellow;
 }
 
-.container {
-    background-color: bisque;
-    height:100px;
+nav {
+    background-color: lightblue;
+}
+
+.navbar-brand {
+ font-weight: bold;
+ color: black;
+ font-size: 3em;   
+}
+
+a.navbar-brand:hover {
+    color:black;
+}
+
+.header1 {
+    padding:5px;
+}
+
+.menu-item {
+    text-align:center;
+    border: 1px black solid;
+}
+
+.navbar {
+    padding:0;
+}
+.navbar .container-fluid {
+    padding:0;
+}
+
+.navbar .navbar-toggler {
+    margin-right:12px;
+}
+
+.navbar-brand {
+    padding-left:12px;
 }
